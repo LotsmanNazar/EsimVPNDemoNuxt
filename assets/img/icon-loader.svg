@@ -1,0 +1,25 @@
+<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<linearGradient id="gradient" x1="21" y1="12.5" x2="3" y2="12.5" gradientUnits="userSpaceOnUse">
+			<stop stop-color="white"/>
+			<stop offset="1" stop-color="white" stop-opacity="0"/>
+		</linearGradient>
+		<mask id="mask">
+			<rect width="24" height="25" fill="black"/>
+			<circle cx="12" cy="12.5" r="8.875" fill="url(#gradient)"/>
+		</mask>
+	</defs>
+
+	<circle cx="12" cy="12.5" r="8.875" stroke="white" stroke-width="4" mask="url(#mask)" style="transform-origin: center; animation: rotate 1.5s linear infinite;"/>
+
+	<style>
+		@keyframes rotate {
+			from {
+				transform: rotate(0deg);
+			}
+			to {
+				transform: rotate(360deg);
+			}
+		}
+	</style>
+</svg>
