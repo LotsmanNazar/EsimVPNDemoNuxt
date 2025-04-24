@@ -12,7 +12,7 @@ export default defineNuxtConfig({
 
 	runtimeConfig: {
 		public: {
-			API_PAGES_DATA_URL: 'http://esimvpnapi.com/api/v1/'
+			API_PAGES_DATA_URL: ''
 		}
 	}
 })
